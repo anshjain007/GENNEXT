@@ -1,0 +1,96 @@
+/* General Form Styles */
+.career-application {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ececec;
+}
+
+.career-application .heading1 {
+    margin-bottom: 40px;
+}
+
+.career-application .form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.career-application .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.career-application label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+.career-application textarea.form-control {
+    resize: none;
+}
+
+.career-application .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.career-application .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.career-application .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+/* Heading */
+.career-application .heading1 .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.career-application .heading1 .span img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.career-application .heading1 .span {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .career-application {
+        padding: 40px 20px;
+    }
+
+    .career-application .form-control {
+        font-size: 14px;
+    }
+
+    .career-application .btn-primary {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    .career-application .heading1 .title {
+        font-size: 24px;
+    }
+}

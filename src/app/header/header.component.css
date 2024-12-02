@@ -1,0 +1,12 @@
+/* Default for larger screens (PC) */
+.logo {
+    max-width: 137%;
+    max-height: 100%;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 74%;
+    }
+}
